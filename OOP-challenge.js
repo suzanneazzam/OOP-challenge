@@ -36,7 +36,7 @@ class Motorcycle extends Vehicle {
 class Garage {
   constructor(capacity) {
     this.vehicles = [];
-    this.capcity = capacity;
+    this.capacity = capacity;
   }
   add(newVehicle) {
     if (!(newVehicle instanceof Vehicle)) {
